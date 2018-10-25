@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Dhrubajyoti Chatterjee"]
   spec.email         = ["dchatterjee@prognos.ai"]
 
-  spec.summary       = %q{TODO: Write athena query result into CSV}
-  spec.description   = %q{TODO: Write athena query result into CSV}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Write athena query result into CSV}
+  spec.description   = %q{Executes a query in aws athena and parse the result to write into a csv file}
+  spec.homepage      = "https://github.com/Dhrubajyotic"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
