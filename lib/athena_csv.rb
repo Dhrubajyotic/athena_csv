@@ -1,4 +1,6 @@
 require "athena_csv/version"
+require "pg"
+require "csv"
 
 root_directory = File.expand_path("../", File.dirname(__FILE__))
 
@@ -9,4 +11,5 @@ module AthenaCsv
   def self.config(args={})
     @config ||= Configuration.new(args)
   end
+  
 end

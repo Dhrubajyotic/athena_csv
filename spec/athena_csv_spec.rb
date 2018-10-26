@@ -1,4 +1,6 @@
-RSpec.describe AthenaCsv do
+require 'spec_helper'
+
+describe AthenaCsv do
   it "has a version number" do
     expect(AthenaCsv::VERSION).not_to be nil
   end
