@@ -23,8 +23,8 @@ module AthenaCsv; class Client
 	puts 'Execution started with Id: ' + query_exec_id
 	begin
 		query_exec_state = status(query_exec_id)
-		#puts query_exec_state
-		#sleep(5)
+		puts query_exec_state
+		sleep(3)
 	end while query_exec_state == 'RUNNING'
 	puts 'Execution completed -- fetching result started' 
 	begin
