@@ -24,7 +24,7 @@ module AthenaCsv; class Client
 	begin
 		query_exec_state = status(query_exec_id)
 		#puts query_exec_state
-		#sleep(3)
+		sleep(2)
 	end while query_exec_state == 'RUNNING'
 	puts 'Execution completed -- fetching result started' 
 	begin
